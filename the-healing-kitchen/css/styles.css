@@ -373,7 +373,7 @@ h2 {
     color: var(--accent);
     border-radius: 10px;
     padding: 1rem;
-    width: 300px;
+    width: 500px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -410,6 +410,10 @@ h2 {
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+}
+
+.bg-color {
+    background-color: rgba(194, 182, 107, 0.5);
 }
 
 /*Menu Page Styles */
@@ -554,10 +558,6 @@ footer {
 
 input {
     height: 2rem;
-}
-
-.flex-item p {
-    background-color: rgba(0, 100, 0, 0.7);
 }
 
 /* Mobile */
