@@ -37,7 +37,7 @@ table {
 /* Navigation */
 a {
     text-decoration: none;
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     color: var(--text);
     font-size: 25px;
     
@@ -55,7 +55,7 @@ a:active {
 header {
     background-color: var(--tb);
     color: var(--text);
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -91,7 +91,7 @@ nav ul {
 body{
     background-color: var(--bg);
     color: var(--text);
-    font-family: 'Italiana', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 .hero {
@@ -105,7 +105,7 @@ body{
     padding: 1rem 2rem;
     border-radius: 10px;
     color: var(--tb);
-    font-family: 'Bodoni Moda SC', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
     font-size: 3rem;
     text-align: center;
   }
@@ -115,13 +115,13 @@ body{
     padding: 1rem 2rem;
     border-radius: 10px;
     color: var(--secondary);
-    font-family: 'Bodoni Moda SC', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
     font-size: 1.5rem;
     text-align: center;
 }
 
 h1 {
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
 }
 
@@ -133,19 +133,38 @@ h1 {
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+    flex-direction: column;
+}
+
+.flex-container footer {
+    width: 1650px;
+}
+
+.flex-container .flex-itm {
+    background-color: var(--primary);
+    color: var(--accent);
+    padding: 4rem;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 /* Flexbox Classes */
-.box {
+/* .box {
     align-items: center;
     display: inline-block;
     gap: 1rem;
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
-}
+} */
 
-.flex-container .classes {
+/* .flex-container .flex-itm {
     background-color: var(--primary);
     color: var(--accent);
     padding: 1rem;
@@ -155,18 +174,19 @@ h1 {
     font-family: 'Bodoni Moda SC', serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     gap: 10px;
-}
+} */
 
-.classes img {
+.flex-itm img {
     width: 100%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 1rem;
+    padding: 10px;
 }
 
-.classes button {
+.flex-itm button {
     background-color: var(--tb);
     color: var(--text);
     border: none;
@@ -174,7 +194,7 @@ h1 {
     border-radius: 5px;
     border: #827a47 2px solid;
     cursor: pointer;
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -214,7 +234,7 @@ h1 {
     border-radius: 5px;
     border: #827a47 2px solid;
     cursor: pointer;
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -254,7 +274,7 @@ h1 {
     border-radius: 5px;
     border: #827a47 2px solid;
     cursor: pointer;
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -271,7 +291,7 @@ h1 {
     border-radius: 10px;
     width: 500px;
     text-align: center;
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     gap: 10px;
 }
@@ -284,7 +304,7 @@ h1 {
     border-radius: 5px;
     border: #827a47 2px solid;
     cursor: pointer;
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -302,7 +322,7 @@ h1 {
     border-radius: 10px;
     width: 500px;
     text-align: center;
-    font-family: 'Corben', serif;
+    font-family: 'Karla', serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     gap: 10px;
 }
@@ -322,7 +342,7 @@ h1 {
     border-radius: 5px;
     border: #827a47 2px solid;
     cursor: pointer;
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -333,7 +353,7 @@ h1 {
     transition: background-color 0.3s ease-in-out;
 }
 h2 {
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
     color: var(--text);
     margin: 1rem 0;
@@ -341,7 +361,7 @@ h2 {
 
 .meals {
     text-align: center;
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     color: var(--text);
     margin: 1rem 0;
     font-size: 3rem;
@@ -373,7 +393,7 @@ h2 {
 }
 
 .card-info {
-    font-family: 'Corben', serif;
+    font-family: 'Karla', serif;
 }
 .card-info h3 {
     font-size: 1.5rem;
@@ -395,18 +415,25 @@ h2 {
 /*Menu Page Styles */
 /*Beverages */
 .flex-container h3 {
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
     color: var(--text);
-    margin: 1rem 0;
+    margin: auto;
     font-size: 2rem;
+}
+
+.flex-container table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 310px;
 }
 
 .bev-table {
     border-collapse: collapse;
     margin: 2rem 0;
-    font-family: 'Corben', serif;
-    display: table;
+    font-family: 'Karla', serif;
+    display: flex;
 }
 .bev-table th, .bev-table td {
     border: 1px solid var(--tb);
@@ -435,7 +462,7 @@ h2 {
     border-radius: 10px;
     width: 300px;
     text-align: center;
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     align-items: center;
     flex-direction: row;
@@ -452,14 +479,14 @@ h2 {
     margin: 1rem;
 }
 .flex-container .flex-item h1 {
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
     color: var(--text);
     margin: 1rem 0;
     font-size: 2.5rem;
 }
 .flex-container .flex-item p {
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     text-align: center;
     color: var(--text);
     margin: 1rem 0;
@@ -474,7 +501,7 @@ h2 {
     width: 100%;
     max-width: 850px;
     text-align: center;
-    font-family: 'Bodoni Moda SC', serif;
+    font-family: 'Libre Baskerville', serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: auto;
 }
@@ -485,7 +512,7 @@ footer {
     color: var(--text);
     padding: 1rem 2rem;
     text-align: center;
-    font-family: 'Niconne', sans-serif;
+    font-family: 'Karla', sans-serif;
     position: relative;
 }
 
@@ -504,8 +531,7 @@ footer {
 }
 
  .footer img {
-    width: 60px;
-    height: auto;
+    width: auto;
     margin-bottom: 0.5rem;
 }
 
@@ -607,13 +633,63 @@ nav ul {
     } 
         */
 
+    .hero {
+        max-width: auto;
+    }
+
     .hero-txt h1 {
         font-size: 2rem;
     }
 
     .flex-container {
-        flex-direction: column;
-        align-items: center;
         padding: 1rem;
+    }
+
+    .flex-container img {
+        max-width: 300px;
+    }
+
+    .flex-container .flex-itm {
+        max-width: 310px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+    }
+
+    .footer p {
+        letter-spacing: 2px;
+        font-size: 18px;
+        color: rgba(0, 100, 0, 0.7);
+    }
+
+    .fa-2x {
+        font-size: 24px;
+    }
+
+    table {
+        width: 310px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        margin: 1px;
+    }
+
+    .flex-container p {
+        margin: 5px;
+    }
+
+    .contact {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact-form {
+        width: 310px;
+        margin: auto;
     }
 }
